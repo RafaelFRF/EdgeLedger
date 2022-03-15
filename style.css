@@ -24,7 +24,12 @@ p{
   margin: 10px 0;
 }
 
+/* Utilities */
+
+
+
 /* Navbar */
 #navbar{
   display: flex;
 }
+
