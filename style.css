@@ -30,13 +30,44 @@ span {
   color: green;
 }
 
+.container {
+  display: flex;
+}
+
 /* Header */
 
 header {
   background: url('../image_resources/image_resources/home/showcase.jpg') no-repeat center center/cover;
-  height: 600px;
+  height: 38rem;
+}
+
+/* Navbar */
+
+#navbar .container {
+  padding: 1rem;
+  
 }
 
 #navbar .container i {
+  color: green;
+  padding-right: 0.4rem;
+  padding-left: 1.6rem;
+}
+
+#navbar .container h1 {
+  font-size: 2rem;
+  padding-right: 0.5rem;
+}
+
+#navbar .container ul {
+  list-style: none;
+}
+
+#navbar .container ul li a {
+  padding: 0.6rem 0.6rem;
+  text-align: center;
+}
+
+#navbar .container ul li a :hover{
   color: green;
 }
