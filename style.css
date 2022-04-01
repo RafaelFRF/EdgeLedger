@@ -27,7 +27,7 @@ a{
 /* Main Styling */
 html,body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.7em;
+  line-height: 1.6;
 }
 
 h1, h2 {
@@ -111,6 +111,7 @@ img{
 
 /* Colocar algo antes do que existe dentro da box */
 .hero::before{
+  /* É NECESSÁRIO TER ESSE CONTENT PARA FUNCIONAR */
   content: '';
   /* Criando opacidade e tornando a imagem mais escura */
   position: absolute;
