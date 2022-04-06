@@ -45,7 +45,6 @@
 /* Flex items */
 .flex-items {
   display: flex;
-  /* text-align: center; */
   justify-content: center;
   text-align: center;
   height: 100%;
@@ -54,3 +53,10 @@
 .flex-items > div {
   padding: 20px;
 }
+
+
+
+
+
+
+/* pika */
