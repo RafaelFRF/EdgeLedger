@@ -50,6 +50,7 @@
   height: 100%;
 }
 
+/* Falar especificamente do div direto */
 .flex-items > div {
   padding: 20px;
 }
