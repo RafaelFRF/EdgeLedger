@@ -55,3 +55,12 @@
   padding: 20px;
 }
 
+
+/* Flex Columns */
+
+.flex-columns . row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
