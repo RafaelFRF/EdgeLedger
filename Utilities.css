@@ -63,7 +63,7 @@
 
 /* Flex Columns */
 
-.flex-columns . row {
+.flex-columns .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
