@@ -22,22 +22,22 @@
   opacity: 0.9;
 }
 
-.btn-primary{
+.btn-primary, .bg-primary{
   background: #28a745;
   color: #fff;
 }
 
-.btn-secondary{
+.btn-secondary, bg-secondary{
   background: #0284d0;
   color: #fff;
 }
 
-.btn-dark{
+.btn-dark, bg-dark{
   background: #333;
   color: #fff;
 }
 
-.btn-light{
+.btn-light, bg-light{
   background: #f4f4f4;
   color: #333;
 }
@@ -63,4 +63,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,.flex-columns .column .column-2{
+  height: 100%;
 }
