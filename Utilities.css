@@ -108,3 +108,13 @@
 .flex-columns p {
   margin: 20px 0;
 }
+
+/* Section header */
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
