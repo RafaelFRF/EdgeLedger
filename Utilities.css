@@ -27,17 +27,17 @@
   color: #fff;
 }
 
-.btn-secondary, bg-secondary{
+.btn-secondary, .bg-secondary{
   background: #0284d0;
   color: #fff;
 }
 
-.btn-dark, bg-dark{
+.btn-dark, .bg-dark{
   background: #333;
   color: #fff;
 }
 
-.btn-light, bg-light{
+.btn-light, .bg-light{
   background: #f4f4f4;
   color: #333;
 }
@@ -62,6 +62,10 @@
 
 
 /* Flex Columns */
+/* Mudar tudo de lado */
+.flex-columns .flex-reverse{
+  flex-direction: row-reverse;
+}
 
 .flex-columns .row {
   display: flex;
@@ -117,4 +121,26 @@
   align-content: center;
   justify-content: center;
   text-align: center;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.section-padding {
+  padding: 20px 20px 40px;
+}
+
+/* Flex grid */
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding 0 4px;
 }
