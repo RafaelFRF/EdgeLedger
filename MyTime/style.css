@@ -71,6 +71,9 @@ a{
   color: #fff;
 }
 
+.navbar a:hover{
+  border-bottom: green 2px solid;
+}
 
 .navbar ul{
   display: flex;
