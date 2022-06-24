@@ -63,7 +63,7 @@
 
 /* Flex Columns */
 /* Mudar tudo de lado */
-.flex-columns .flex-reverse{
+.flex-columns.flex-reverse .row{
   flex-direction: row-reverse;
 }
 
@@ -142,5 +142,5 @@
 .flex-grid .column {
   flex: 25%;
   max-width: 25%;
-  padding 0 4px;
+  padding: 0 4px;
 }

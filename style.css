@@ -128,6 +128,11 @@ img{
   z-index: 10; 
 }
 
+.hero .blog {
+  background: url(../image_resources/image_resources/home/blog.jpg) no-repeat center center cover;
+  height: 30vh;
+}
+
 /* Icons */
 .icons{
   padding: 30px;
@@ -224,5 +229,14 @@ img{
 
   .flex-items {
     flex-direction: column;
+  }
+
+  .flex-columns .column, .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .team img{
+    width: 70%;
   }
 }
